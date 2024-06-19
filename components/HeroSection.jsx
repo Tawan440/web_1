@@ -26,126 +26,126 @@ const HeroSection = () => {
               height={500}
             />
           </Link>
+          <Link href={"/"} className="">
+            <Image
+              src={Skibidi}
+              alt="hero image"
+              className="rounded-xl"
+              width={500}
+              height={500}
+            />
+          </Link>
+          <Link href={"/"} className="">
+            <Image
+              src={Skibidi}
+              alt="hero image"
+              className="rounded-xl"
+              width={500}
+              height={500}
+            />
+          </Link>
+          <Link href={"/"} className="">
+            <Image
+              src={Skibidi}
+              alt="hero image"
+              className="rounded-xl"
+              width={500}
+              height={500}
+            />
+          </Link>
+          <Link href={"/"} className="">
+            <Image
+              src={Skibidi}
+              alt="hero image"
+              className="rounded-xl"
+              width={500}
+              height={500}
+            />
+          </Link>
+          <Link href={"/"} className="">
+            <Image
+              src={Skibidi}
+              alt="hero image"
+              className="rounded-xl"
+              width={500}
+              height={500}
+            />
+          </Link>
+          <Link href={"/"} className="">
+            <Image
+              src={Skibidi}
+              alt="hero image"
+              className="rounded-xl"
+              width={500}
+              height={500}
+            />
+          </Link>
+          <Link href={"/"} className="">
+            <Image
+              src={Skibidi}
+              alt="hero image"
+              className="rounded-xl"
+              width={500}
+              height={500}
+            />
+          </Link>
+          <Link href={"/"} className="">
+            <Image
+              src={Skibidi}
+              alt="hero image"
+              className="rounded-xl"
+              width={500}
+              height={500}
+            />
+          </Link>
+          <Link href={"/"} className="">
+            <Image
+              src={Skibidi}
+              alt="hero image"
+              className="rounded-xl"
+              width={500}
+              height={500}
+            />
+          </Link>
+          <Link href={"/"} className="">
+            <Image
+              src={Skibidi}
+              alt="hero image"
+              className="rounded-xl"
+              width={500}
+              height={500}
+            />
+          </Link>
+          <Link href={"/"} className="">
+            <Image
+              src={Skibidi}
+              alt="hero image"
+              className="rounded-xl"
+              width={500}
+              height={500}
+            />
+          </Link>
+          <Link href={"/"} className="">
+            <Image
+              src={Skibidi}
+              alt="hero image"
+              className="rounded-xl"
+              width={500}
+              height={500}
+            />
+          </Link>
+          <Link href={"/"} className="">
+            <Image
+              src={Skibidi}
+              alt="hero image"
+              className="rounded-xl"
+              width={500}
+              height={500}
+            />
+          </Link>
           <Link href={"https://nzp.gay/"} className="">
             <Image
               src={Skibidi2}
-              alt="hero image"
-              className="rounded-xl"
-              width={500}
-              height={500}
-            />
-          </Link>
-          <Link href={"/"} className="">
-            <Image
-              src={Skibidi}
-              alt="hero image"
-              className="rounded-xl"
-              width={500}
-              height={500}
-            />
-          </Link>
-          <Link href={"/"} className="">
-            <Image
-              src={Skibidi}
-              alt="hero image"
-              className="rounded-xl"
-              width={500}
-              height={500}
-            />
-          </Link>
-          <Link href={"/"} className="">
-            <Image
-              src={Skibidi}
-              alt="hero image"
-              className="rounded-xl"
-              width={500}
-              height={500}
-            />
-          </Link>
-          <Link href={"/"} className="">
-            <Image
-              src={Skibidi}
-              alt="hero image"
-              className="rounded-xl"
-              width={500}
-              height={500}
-            />
-          </Link>
-          <Link href={"/"} className="">
-            <Image
-              src={Skibidi}
-              alt="hero image"
-              className="rounded-xl"
-              width={500}
-              height={500}
-            />
-          </Link>
-          <Link href={"/"} className="">
-            <Image
-              src={Skibidi}
-              alt="hero image"
-              className="rounded-xl"
-              width={500}
-              height={500}
-            />
-          </Link>
-          <Link href={"/"} className="">
-            <Image
-              src={Skibidi}
-              alt="hero image"
-              className="rounded-xl"
-              width={500}
-              height={500}
-            />
-          </Link>
-          <Link href={"/"} className="">
-            <Image
-              src={Skibidi}
-              alt="hero image"
-              className="rounded-xl"
-              width={500}
-              height={500}
-            />
-          </Link>
-          <Link href={"/"} className="">
-            <Image
-              src={Skibidi}
-              alt="hero image"
-              className="rounded-xl"
-              width={500}
-              height={500}
-            />
-          </Link>
-          <Link href={"/"} className="">
-            <Image
-              src={Skibidi}
-              alt="hero image"
-              className="rounded-xl"
-              width={500}
-              height={500}
-            />
-          </Link>
-          <Link href={"/"} className="">
-            <Image
-              src={Skibidi}
-              alt="hero image"
-              className="rounded-xl"
-              width={500}
-              height={500}
-            />
-          </Link>
-          <Link href={"/"} className="">
-            <Image
-              src={Skibidi}
-              alt="hero image"
-              className="rounded-xl"
-              width={500}
-              height={500}
-            />
-          </Link>
-          <Link href={"/"} className="">
-            <Image
-              src={Skibidi}
               alt="hero image"
               className="rounded-xl"
               width={500}
