@@ -12,7 +12,7 @@ const HeroSection = () => {
   return (
     <div className="w-full max-w-screen-2xl">
       <section className="bg-blue-300 mt-36 justify-center rounded-lg h-64 w-full border-4 border-white">
-        <p className="justify-center items-center text-9xl font-extrabold flex flex-col mt-16">
+        <p className="text-black justify-center items-center text-9xl font-extrabold flex flex-col mt-16">
           tawan's favrite game 👍.
         </p>
       </section>
