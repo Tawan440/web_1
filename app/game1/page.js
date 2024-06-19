@@ -13,16 +13,19 @@ const HeroSection = () => {
     }
 
     return (
-        <section className="h-screen flex justify-center bg-white items-center">
+        <section className="grid h-screen justify-center bg-white items-center">
+            <p className="text-9xl -mt-20">
+                GAME : click red button
+            </p>
             {
                 showRed == true ? 
                     (<button className="bg-red-600 justify-center items-center text-9xl" onClick={handleRedButton}>
                     red button <br></br>
-                    {a}
+                    point : {a}
                 </button>):
                     (<button className="bg-red-600 justify-center items-center text-9xl" onClick={handleRedButton}>
                         red button <br></br>
-                        {a}
+                        point : {a}
                 </button>)
             }
         </section>
