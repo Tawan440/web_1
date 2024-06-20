@@ -6,6 +6,7 @@ import Link from "next/link";
 import Skibidi from "@/public/images/hero-image.png";
 import Skibidi1 from "@/public/images/hero-image1.png";
 import Skibidi2 from "@/public/images/hero-image2.png";
+import Skibidi3 from "@/public/images/hero-image3.png";
 
 
 const HeroSection = () => {
@@ -26,9 +27,9 @@ const HeroSection = () => {
               height={500}
             />
           </Link>
-          <Link href={"/"} className="">
+          <Link href={"/game1"} className="">
             <Image
-              src={Skibidi}
+              src={Skibidi3}
               alt="hero image"
               className="rounded-xl"
               width={500}

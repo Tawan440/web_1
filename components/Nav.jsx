@@ -16,12 +16,6 @@ const Nav = () => {
         >
           About
         </Link>
-        <Link
-          className="rounded-2xl shadow-[0_0_10px_black] px-4 py-2 cursor-pointer pr-9 bg-white hover:text-white hover:bg-black hover:shadow-[0_0_10px_white] justify-center transition-colors duration-500 items-center"
-          href={"/game1"}
-        >
-          game
-        </Link>
       </div>
     </section>
   );
