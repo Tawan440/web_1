@@ -1,17 +1,15 @@
-"use client"
-import React from "react";
-import Image from "next/image";
-import { TypeAnimation } from "react-type-animation";
-import Link from "next/link";
+import React from 'react';
 
-const HeroSection = () => {
-    return (
-        <section className="h-screen flex justify-center items-center">
-            <p className="text-9xl font-extrabold">
-                mairu jingjingna
-            </p>
-        </section>
-    );
+const Button = () => {
+  return (
+    <button
+      className="relative h-12 px-6 border-2 border-black bg-gray-200 transition duration-200 ease-in-out transform hover:scale-95 cursor-crosshair"
+    >
+      <span className="absolute inset-0 bg-gray-200 transition duration-200 ease-in-out"></span>
+      <span className="ml-96 text-black justify-center items-center absolute top-3 left-0 w-full h-4 bg-gray-200 transition duration-200 ease-in-out transform origin-left scale-x-0"></span>
+      aaaaaaaaaaaaaaaaa
+    </button>
+  );
 };
 
-export default HeroSection;
+export default Button;
