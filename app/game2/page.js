@@ -7,7 +7,7 @@ import tail from "@/public/images/coin_tail.png";
 const HeroSection = () => {
   const [side, setSide] = useState(0); // 0 for head, 1 for tail
   const [flipping, setFlipping] = useState(false);
-
+  // ajkosdsajdnsjhduasfbjkafubdfisyabd
   const randomNumberInRange = (min, max) => {
     return Math.floor(Math.random() * (max - min + 1)) + min;
   };
