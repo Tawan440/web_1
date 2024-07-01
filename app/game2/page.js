@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import Image from "next/image";
 import head from "@/public/images/coin_head.png";
@@ -31,7 +31,12 @@ const HeroSection = () => {
       <div className="flex justify-center">
         {!flipping && (
           <div className="mt-10 rounded-xl overflow-hidden">
-            <Image src={side === 0 ? head : tail} alt="coin image" width={500} height={500} />
+            <Image
+              src={side === 0 ? head : tail}
+              alt="coin image"
+              width={500}
+              height={500}
+            />
           </div>
         )}
       </div>
