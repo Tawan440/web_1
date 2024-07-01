@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 import head from "@/public/images/coin_head.png";
 import tail from "@/public/images/coin_tail.png";
