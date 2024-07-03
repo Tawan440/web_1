@@ -5,6 +5,7 @@ import head from "@/public/images/coin_head.png";
 import tail from "@/public/images/coin_tail.png";
 import idk from "@/public/images/coin_idk.png";
 
+
 const HeroSection = () => {
   const [side, setSide] = useState(0); // 0 for head, 1 for tail
   const [flipping, setFlipping] = useState(false);
@@ -28,7 +29,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="grid gap-x-16 gap-y-8 grid-cols-1 w-full h-full bg-black justify-center items-center">
+    <section className="text-black grid gap-x-16 gap-y-8 grid-cols-1 w-full h-full bg-black justify-center items-center">
       <div className="flex justify-center">
         {!flipping ? (
           <div className="item-center justify-center rounded-xl overflow-hidden">
