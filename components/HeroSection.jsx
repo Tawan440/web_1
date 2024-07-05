@@ -1,8 +1,5 @@
-"use client";
 import React from "react";
 import Image from "next/image";
-import { TypeAnimation } from "react-type-animation";
-import VIDE from "@/public/images/videeo.mp4";
 import Link from "next/link";
 import Skibidi from "@/public/images/hero-image.png";
 import Skibidi1 from "@/public/images/hero-image1.png";
@@ -12,21 +9,11 @@ import Skibidi3 from "@/public/images/hero-image3.png";
 const HeroSection = () => {
   return (
     <div className="w-full max-w-screen-2xl">
-      <div>
-        <video
-          autoPlay
-          loop
-          className="w-full h-full"
-          src="/videos/videeo.mp4"
-          type="video/mp4"
-        />
+      <div className="h-full w-full">
+        
       </div>
 
       <section className="bg-blue-300 mt-36 justify-center rounded-lg h-64 w-full border-4 border-white">
-        <video className="w-full" controls>
-          <source src={VIDE} type="video/mp4"/>
-          Your browser does not support the video tag.
-        </video>
         <p className="text-black justify-center items-center text-9xl font-extrabold flex flex-col mt-16"></p>
       </section>
       <div className="grid gap-x-16 gap-y-8 grid-cols-3 mt-10 justify-center items-center">
