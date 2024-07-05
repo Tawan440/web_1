@@ -12,6 +12,16 @@ import Skibidi3 from "@/public/images/hero-image3.png";
 const HeroSection = () => {
   return (
     <div className="w-full max-w-screen-2xl">
+      <div>
+        <video
+          autoPlay
+          loop
+          className="w-full h-full"
+          src="/videos/videeo.mp4"
+          type="video/mp4"
+        />
+      </div>
+
       <section className="bg-blue-300 mt-36 justify-center rounded-lg h-64 w-full border-4 border-white">
         <video className="w-full" controls>
           <source src={VIDE} type="video/mp4"/>
