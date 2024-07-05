@@ -4,7 +4,7 @@ import Nav from "../components/Nav";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-black justify-between items-center">
-      <iframe
+      {/* <iframe
         width="560"
         height="315"
         src="https://www.youtube.com/embed/0lY_TpyAnmc?si=FRnmHWmyTdql76SN"
@@ -13,8 +13,8 @@ export default function Home() {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
-      ></iframe>
-      <video
+      ></iframe> */}
+      {/* <video
         width="420"
         height="340"
         controls
@@ -30,7 +30,7 @@ export default function Home() {
         />
         Your browser does not support the video tag.
       </video>
-            
+             */}
       <div className="container">
         <HeroSection />
       </div>

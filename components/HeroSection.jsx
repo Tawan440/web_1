@@ -9,10 +9,16 @@ import Skibidi3 from "@/public/images/hero-image3.png";
 const HeroSection = () => {
   return (
     <div className="w-full max-w-screen-2xl">
-      <div className="h-full w-full">
-        
-      </div>
-
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/0lY_TpyAnmc?si=FRnmHWmyTdql76SN"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
       <section className="bg-blue-300 mt-36 justify-center rounded-lg h-64 w-full border-4 border-white">
         <p className="text-black justify-center items-center text-9xl font-extrabold flex flex-col mt-16"></p>
       </section>
