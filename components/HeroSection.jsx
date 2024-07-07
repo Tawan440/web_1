@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import Skibidi from "@/public/images/hero-image.png";
 import Skibidi1 from "@/public/images/hero-image1.png";
-import Skibidi2 from "@/public/images/hero-image2.png";
 import Skibidi3 from "@/public/images/hero-image3.png";
 
 const HeroSection = () => {
@@ -26,7 +25,7 @@ const HeroSection = () => {
         allowfullscreen
       ></iframe>
 
-      <div className="grid gap-x-16 gap-y-8 grid-cols-3 mt-10 justify-center items-center">
+      <div className="grid gap-x-16 gap-y-8 grid-cols-3 mt-10">
         <Link
           href={
             "https://www.roblox.com/games/17527713600/Citizen-Hustle-Police-Bustle-Tycoon"
