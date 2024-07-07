@@ -44,6 +44,13 @@ const Nav = () => {
         >
           About
         </Link>
+        <Link>
+        <div class="grid justify-items-center gap-1.5">
+  <span class="h-1 w-8 rounded-full bg-black">/<span>
+  <span class="h-1 w-8 rounded-full bg-black">/<span>
+  <span class="h-1 w-8 rounded-full bg-black">/<span>
+</div>
+</Link>
       </div>
     </section>
   );
