@@ -20,7 +20,9 @@ const HeroSection = () => {
         allowfullscreen
       ></iframe>
       <section className="bg-blue-300 mt-36 justify-center rounded-lg h-64 w-full border-4 border-white">
-        <p className="text-black justify-center items-center text-9xl font-extrabold flex flex-col mt-16"></p>
+        <p className="text-black justify-center items-center text-9xl font-extrabold flex flex-col mt-16">
+          RANDOM SECTION
+        </p>
       </section>
       <div className="grid gap-x-16 gap-y-8 grid-cols-3 mt-10 justify-center items-center">
         <Link

@@ -13,7 +13,7 @@ const HeroSection = () => {
     }
 
     return (
-        <section className="grid h-screen justify-center bg-white items-center">
+        <section className="text-black grid h-screen justify-center bg-white items-center">
             <p className="text-9xl -mt-20">
                 GAME : click red button
             </p>
