@@ -1,8 +1,7 @@
 "use client"
 import React, {useState} from "react";
-import Image from "next/image";
-import { TypeAnimation } from "react-type-animation";
-import Link from "next/link";
+// import Image from "next/image";
+// import Link from "next/link";
 
 const HeroSection = () => {
     const [showRed, setShowRed] = useState(false)
