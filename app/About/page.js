@@ -1,9 +1,9 @@
 "use client"
 import React from "react";
 import Image from "next/image";
-import { TypeAnimation } from "react-type-animation";
-import Link from "next/link";
-import aaa from "@/public/images/forgot.png";
+// import { TypeAnimation } from "react-type-animation";
+// import Link from "next/link";
+import aaa from "@/public/assets/forgot.png";
 
 const HeroSection = () => {
     return (

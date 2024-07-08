@@ -1,65 +1,90 @@
-"use client";
-import React, { useState } from "react";
-import Image from "next/image";
-import head from "@/public/images/coin_head.png";
-import tail from "@/public/images/coin_tail.png";
-import idk from "@/public/images/coin_idk.png";
+// import React, { useState } from "react";
+// import { AiOutlineMenu, AiOutlineSearch, AiOutlineClose } from "react-icons/ai";
+// import { BsFillCartFill } from "react-icons/bs";
+// import { TbTruckDelivery } from "react-icons/tb";
+// import { FaWallet } from "react-icons/fa";
+// import { MdFavorite, MdHelp } from "react-icons/md";
 
-const HeroSection = () => {
-  const [side, setSide] = useState(0); // 0 for head, 1 for tail
-  const [flipping, setFlipping] = useState(false);
-  // ajkosdsajdnsjhduasfbjkafubdfisyabd
-  const randomNumberInRange = (min, max) => {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-  };
+// const Navbar = () => {
+//   const [nav, setNav] = useState(false);
 
-  const handleClaick = () => {
-    if (flipping) return; // Prevent multiple clicks during animation
+//   const menuItems = [
+//     { icon: <TbTruckDelivery size={25} className="mr-4" />, text: "Orders" },
+//     { icon: <MdFavorite size={25} className="mr-4" />, text: "Favorites" },
+//     { icon: <FaWallet size={25} className="mr-4" />, text: "Wallet" },
+//     { icon: <MdHelp size={25} className="mr-4" />, text: "Help" },
+//   ];
 
-    setFlipping(true);
+//   return (
+//     <div className="max-w-[1640px] mx-auto flex justify-between items-center p-4 shadow-sm">
+//       {/* Left side */}
+//       <div className="flex items-center">
+//         <div onClick={() => setNav(!nav)} className="cursor-pointer">
+//           <AiOutlineMenu size={30} />
+//         </div>
+//         <h1 className="text-2xl sm:text-3xl lg:text-4xl px-2">
+//           Best <span className="font-bold">Eats</span>
+//         </h1>
+//         <div className="hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]">
+//           <p className="bg-black text-white rounded-full p-2">Delivery</p>
+//           <p className="p-2">Pickup</p>
+//         </div>
+//       </div>
 
-    setTimeout(() => {
-      const newSide = randomNumberInRange(0, 1);
-      setSide(newSide);
-      setTimeout(() => {
-        setFlipping(false);
-      }, 1000); // Set the total duration for the flip animation
-    }, 500); // Set the duration for half of the flip animation
-  };
+//       {/* Search Input */}
+//       <div className="bg-gray-200 rounded-full flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px]">
+//         <AiOutlineSearch size={25} />
+//         <input
+//           className="bg-transparent p-2 w-full focus:outline-none"
+//           type="text"
+//           placeholder="Search foods"
+//         />
+//       </div>
+//       {/* Cart button */}
+//       <button className="bg-black text-white hidden md:flex items-center py-2 rounded-full border border-black px-5 ">
+//         <BsFillCartFill size={20} className="mr-2" /> Cart
+//       </button>
 
-  return (
-    <section className="grid gap-x-16 gap-y-8 grid-cols-1 w-full h-full bg-black justify-center items-center">
-      <div className="flex justify-center">
-        {!flipping ? (
-          <div className="item-center justify-center rounded-xl overflow-hidden">
-            <Image
-              src={side === 0 ? head : tail}
-              alt="coin image"
-              width={500}
-              height={500}
-            />
-          </div>
-        ) : (
-          <div className="item-center justify-center rounded-xl overflow-hidden">
-          <Image
-            src={idk}
-            alt="coin image"
-            width={500}
-            height={500}
-          />
-        </div>
-        )}
-      </div>
-      <div className="flex item-center justify-center">
-        <button
-          onClick={handleClaick}
-          className="text-7xl -mt-10 item-center cursor-pointer transition-all bg-blue-500 text-white px-6 py-2 rounded-lg border-blue-600 border-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px] active:border-b-[2px] active:brightness-90 active:translate-y-[2px]"
-        >
-          {flipping ? "Flipping a coin..." : "Flip a coin"}
-        </button>
-      </div>
-    </section>
-  );
-};
+//       {/* Mobile Menu */}
+//       {/* Overlay */}
+//       {nav ? (
+//         <div className="bg-black/80 fixed w-full h-screen z-10 top-0 left-0"></div>
+//       ) : (
+//         ""
+//       )}
 
-export default HeroSection;
+//       {/* Side drawer menu */}
+//       <div
+//         className={
+//           nav
+//             ? "fixed top-0 left-0 w-[300px] h-screen bg-white z-10 duration-300"
+//             : "fixed top-0 left-[-100%] w-[300px] h-screen bg-white z-10 duration-300"
+//         }
+//       >
+//         <AiOutlineClose
+//           onClick={() => setNav(!nav)}
+//           size={30}
+//           className="absolute right-4 top-4 cursor-pointer"
+//         />
+//         <h2 className="text-2xl p-4">
+//           Best <span className="font-bold">Eats</span>
+//         </h2>
+//         <nav>
+//           <ul className="flex flex-col p-4 text-gray-800">
+//             {menuItems.map(({ icon, text }, index) => {
+//               return (
+//                 <div key={index} className=" py-4">
+//                   <li className="text-xl flex cursor-pointer  w-[50%] rounded-full mx-auto p-2 hover:text-white hover:bg-black">
+//                     {icon} {text}
+//                   </li>
+//                 </div>
+//               );
+//             })}
+//           </ul>
+//         </nav>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Navbar;

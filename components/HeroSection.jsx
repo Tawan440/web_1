@@ -2,8 +2,9 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Skibidi from "@/public/assets/hero-image.png";
-import Skibidi1 from "@/public/assets/hero-image1.png";
-import Skibidi3 from "@/public/assets/hero-image3.png";
+import cicicen_huscel_police_bustel from "@/public/assets/hero-image1.png";
+import red_button from "@/public/assets/hero-image3.png";
+import cool_coin from "@/public/assets/cool_coin.png";
 // import vdo from "@/public/assets/video.mp4";
 const HeroSection = () => {
   return (
@@ -13,7 +14,7 @@ const HeroSection = () => {
           Welcome to our website game real
         </p>
       </section>
-      <div id="home" className="w-full h-screen text-center  relative">
+      {/* <div id="home" className="w-full h-screen text-center  relative">
         <video
           autoPlay
           loop
@@ -22,7 +23,7 @@ const HeroSection = () => {
           src="/assets/main.mp4"
           type="video/mp4"
         />
-      </div>
+      </div> */}
       {/* <iframe
         className="mt-10 justify-center items-center ml-80"
         width="560"
@@ -43,7 +44,7 @@ const HeroSection = () => {
           className="max-w-full"
         >
           <Image
-            src={Skibidi1}
+            src={cicicen_huscel_police_bustel}
             alt="hero image"
             className="rounded-xl border-4 border-black"
             width={500}
@@ -62,7 +63,7 @@ const HeroSection = () => {
         </Link>
         <Link href={"/game1"} className="">
           <Image
-            src={Skibidi3}
+            src={red_button}
             alt="hero image"
             className="rounded-xl"
             width={500}
@@ -77,21 +78,21 @@ const HeroSection = () => {
             <p>more have fun</p>
           </h1>
         </Link>
-        <Link
-          href={"/game2"}
-          className="text-2xl text-center justify-center items-center bg-white text-black rounded-lg border-4 border-black"
-        >
+        <Link href={"/game2"} className="">
           <Image
-            src={Skibidi3}
+            src={cool_coin}
             alt="hero image"
             className="rounded-xl"
             width={500}
             height={500}
           />
           <h1 className="text-2xl text-center justify-center items-center bg-white text-black rounded-lg border-4 border-black">
-            flip a coin game
-            <p>-boa</p>
-            <p>you can get head or tail</p>
+            flip a coin
+            <p>50-50 luck</p>
+            <p>idk</p>
+            <p>idk</p>
+            <p>idk</p>
+            <p>make by tawan</p>
           </h1>
         </Link>
       </div>
