@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Skibidi from "@/public/images/hero-image.png";
-import Skibidi1 from "@/public/images/hero-image1.png";
-import Skibidi3 from "@/public/images/hero-image3.png";
-
+import Skibidi from "@/public/assets/hero-image.png";
+import Skibidi1 from "@/public/assets/hero-image1.png";
+import Skibidi3 from "@/public/assets/hero-image3.png";
+// import vdo from "@/public/assets/video.mp4";
 const HeroSection = () => {
   return (
     <div className="w-full max-w-screen-2xl">
@@ -13,7 +13,17 @@ const HeroSection = () => {
           Welcome to our website game real
         </p>
       </section>
-      <iframe
+      <div id="home" className="w-full h-screen text-center  relative">
+        <video
+          autoPlay
+          loop
+          muted
+          className="absolute top-0 left-0 min-w-full min-h-full object-cover h-screen"
+          src="/assets/main.mp4"
+          type="video/mp4"
+        />
+      </div>
+      {/* <iframe
         className="mt-10 justify-center items-center ml-80"
         width="560"
         height="315"
@@ -23,7 +33,7 @@ const HeroSection = () => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
-      ></iframe>
+      ></iframe> */}
 
       <div className="grid gap-x-16 gap-y-8 grid-cols-3 mt-10">
         <Link
@@ -81,9 +91,7 @@ const HeroSection = () => {
           <h1 className="text-2xl text-center justify-center items-center bg-white text-black rounded-lg border-4 border-black">
             flip a coin game
             <p>-boa</p>
-            <p>
-              you can get head or tail
-            </p>
+            <p>you can get head or tail</p>
           </h1>
         </Link>
       </div>
