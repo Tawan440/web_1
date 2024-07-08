@@ -10,7 +10,7 @@ const HeroSection = () => {
     <div className="w-full max-w-screen-2xl">
       <section className="bg-white mt-36 justify-center rounded-lg h-64 w-full border-4 border-white">
         <p className="text-black justify-center items-center text-7xl font-extrabold . flex flex-col mt-16">
-          Welcome to our website game
+          Welcome to our website game real
         </p>
       </section>
       <iframe
@@ -81,11 +81,8 @@ const HeroSection = () => {
           <h1 className="text-2xl text-center justify-center items-center bg-white text-black rounded-lg border-4 border-black">
             flip a coin game
             <p>-boa</p>
-            <p>-tawan</p>
-            <p>-taewon</p>
-            <p>-jojo</p>
             <p>
-              game about police aresting mafia and citizen and work for money
+              you can get head or tail
             </p>
           </h1>
         </Link>
