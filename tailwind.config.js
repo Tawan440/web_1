@@ -20,6 +20,3 @@ module.exports = {
   },
   plugins: [require('tailwind-hamburgers')],
 };
-module.exports = {
-  plugins: [require('tailwind-hamburgers')],
-}
