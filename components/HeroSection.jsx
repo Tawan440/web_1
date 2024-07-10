@@ -92,7 +92,7 @@ const HeroSection = () => {
             <p>idk</p>
             <p>idk</p>
             <p>idk</p>
-            <p>make by tawan</p>
+            <p>made by tawan</p>
           </h1>
         </Link>
       </div>
