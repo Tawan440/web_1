@@ -14,11 +14,17 @@ const HeroSection = () => {
           Welcome to our website game real
         </p>
       </section>
+      <Link href={"/FREEROBUX"} className="">
+        <h1 className="text-2xl text-center justify-center items-center bg-white text-black rounded-lg border-4 border-black">
+          click me
+          FREE ROBUX
+        </h1>
+      </Link>
       {/* <div id="home" className="w-full h-screen text-center  relative">
         <video
-          autoPlay
-          loop
-          muted
+        autoPlay
+        loop
+        muted
           className="absolute top-0 left-0 min-w-full min-h-full object-cover h-screen"
           src="/assets/main.mp4"
           type="video/mp4"
@@ -93,12 +99,6 @@ const HeroSection = () => {
             <p>idk</p>
             <p>idk</p>
             <p>made by tawan</p>
-          </h1>
-        </Link>
-        <Link href={"/FREEROBUX"} className="">
-          <h1 className="text-2xl text-center justify-center items-center bg-white text-black rounded-lg border-4 border-black">
-            click me
-            FREE ROBUX
           </h1>
         </Link>
       </div>
