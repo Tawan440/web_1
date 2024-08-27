@@ -95,6 +95,12 @@ const HeroSection = () => {
             <p>made by tawan</p>
           </h1>
         </Link>
+        <Link href={"/FREEROBUX"} className="">
+          <h1 className="text-2xl text-center justify-center items-center bg-white text-black rounded-lg border-4 border-black">
+            click me
+            FREE ROBUX
+          </h1>
+        </Link>
       </div>
     </div>
   );
