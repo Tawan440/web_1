@@ -8,7 +8,7 @@ import cool_coin from "@/public/assets/cool_coin.png";
 // import vdo from "@/public/assets/video.mp4";
 const HeroSection = () => {
   return (
-    <div className="w-full max-w-screen-2xl">
+    <div className="w-full bg-black max-w-screen-2xl">
       <section className="bg-white mt-36 justify-center rounded-lg h-64 w-full border-4 border-white">
         <p className="text-black justify-center items-center text-7xl font-extrabold . flex flex-col mt-16">
           Welcome to our website game real
