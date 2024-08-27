@@ -15,7 +15,7 @@ const HeroSection = () => {
         </p>
       </section>
       <Link href={"/FREEROBUX"} className="">
-        <h1 className="text-2xl text-center justify-center items-center bg-white text-black rounded-lg border-4 border-black">
+        <h1 className="text-2xl text-center justify-center items-center bg-red-700 text-black rounded-lg border-4 border-black">
           click me
           FREE ROBUX
         </h1>
